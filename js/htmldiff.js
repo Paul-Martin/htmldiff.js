@@ -58,7 +58,7 @@
    *    null otherwise
    */
   function is_start_of_atomic_tag(word){
-    var result = /^<(iframe|object|math|svg|script)/.exec(word);
+    var result = /^<(iframe|object|math|svg|script|img)/.exec(word);
     if (result){
       result = result[1];
     }
